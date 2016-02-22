@@ -16,15 +16,15 @@ def palidrome():
       print 'Sorry this word isn\'t a palindrome :('
       
   print '\nHave a nice day!'
-
-palidrome()
-
-re_play = raw_input("Want to play agian?")
-
-if re_play.lower() == "yes":
-  palidrome()
-else:
-  print "Your Loss!"
+  
+  re_play = raw_input("Want to play agian?")
+  
+  if re_play.lower() == "yes":
+    palidrome()
+  else:
+    print "Your Loss!"
+  
+palidrome()   
 
 
 
