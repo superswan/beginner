@@ -24,6 +24,7 @@ def palidrome():
   else:
     print "Your Loss!"
   
+
 palidrome()   
 
 
