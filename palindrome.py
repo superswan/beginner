@@ -1,3 +1,5 @@
+""" Simple Program to Check Palindrome String"""
+
 print '*****************'
 print '**HELLO THERE!***'
 print '*****************'
@@ -10,7 +12,7 @@ def palidrome():
 
     word = raw_input(">> ")
 
-    if word == word[::-1]:
+    if word == word[::-1]:							#Checks if the string doesnt change when reversed				
         print 'Yes your word is a palindrome!'
     else:
         print 'Sorry this word isn\'t a palindrome :('
