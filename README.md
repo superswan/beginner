@@ -24,6 +24,4 @@ python palindrome.py
 
 ### Screenshots
 
-![selection_014](https://user-images.githubusercontent.com/15849927/32120439-2a8b9652-bb76-11e7-9ad2-e81906e37b9d.jpg)
-
-
+![screenshot](https://user-images.githubusercontent.com/15849927/32120845-be415c32-bb77-11e7-9764-dcc03d6401f1.png)
