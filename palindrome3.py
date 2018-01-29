@@ -1,7 +1,7 @@
 print ('*****************')
 print ('**HELLO THERE!***')
 print ('*****************')
-print ('\nWelcome the the Python Palindrome Prober!\n')
+print ('\nWelcome the the Python Palindrome Prober! Editied by me!\n')
 
 def palindrome():
 
