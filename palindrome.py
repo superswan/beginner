@@ -19,7 +19,7 @@ def palidrome():
 
     print '\nHave a nice day!'
 
-    re_play = raw_input("Want to play agian (y/n)?")
+    re_play = raw_input("Want to play again (y/n)?")
 
     if re_play.lower().startswith("y"):
         palidrome()
