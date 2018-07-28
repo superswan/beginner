@@ -8,6 +8,7 @@ def palindrome():
     print ('''Please enter the word you would like to check
                               for example: racecar''')
 
+    word = input(">> ")
 
     if word == word[::-1]:
         print ('Yes, your word is a palindrome!')
