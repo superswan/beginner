@@ -5,7 +5,7 @@ print '**HELLO THERE!***'
 print '*****************'
 print '\n Welcome the the Python Palindrome Prober!\n'
 
-def palidrome():
+def palindrome():
 
     print """Please enter the word you would like to check
                               for example: racecar         """
@@ -22,8 +22,8 @@ def palidrome():
     re_play = raw_input("Want to play again (y/n)?")
 
     if re_play.lower().startswith("y"):
-        palidrome()
+        palindrome()
     else:
         print "Your Loss!"
 
-palidrome()
+palindrome()
