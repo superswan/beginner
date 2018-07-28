@@ -27,3 +27,15 @@ def palidrome():
         print "Your Loss!"
 
 palidrome()
+
+
+def harder_palindrome(word):
+    """ Takes in a word, and does the palindrome step by step, using a loop"""
+    """ makes the [::-1] notation clearer (hopefully)"""
+    for i in range(len(word)//2): #you just want to check the first half and second half
+        if (word[i] == word[-i-1]): #compare last and first until you reach the middle
+            pass #do nothing
+        else:
+            return False #oopsy, not palindrome
+    return True #yay
+
