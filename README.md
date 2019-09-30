@@ -4,10 +4,10 @@
 
 ### Usage
 
-* Clone the repository
+* Cloning the repository
 
 ```
-git clone https://github.com/superswan/beginner.git 
+git clone https://github.com/superswan/beginner.git
 ```
 
 * Change directory
@@ -16,7 +16,7 @@ git clone https://github.com/superswan/beginner.git
 cd beginner
 ```
 
-* Execute code
+* Executes code
 
 ```
 python palindrome.py
