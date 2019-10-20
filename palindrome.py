@@ -1,9 +1,6 @@
 """ Simple Program to Check Palindrome String"""
 
-print('*' * 16)
-print('**HELLO THERE!**')
-print('*' * 16)
-print('\n Welcome the the Python Palindrome Prober!\n')
+print(('*' * 18) + 'HELLO THERE!' + ('*' * 18) + '\n Welcome to the Python Palindrome Prober!\n')
 
 def palidrome():
 
@@ -11,16 +8,11 @@ def palidrome():
 
     word = input(">> ").lower()
 
-    if word == word[::-1]:							#Checks if the string doesnt change when reversed				
-        print('Yes, your word is a palindrome!')
-    else:
-        print('Sorry, this word isn\'t a palindrome :(')
+    print('Yes, your word is a palindrome!' if word == word[::-1] else 'Sorry, this word isn\'t a palindrome :(') # Checks if the string doesn't change when reversed
 
     print('\nHave a nice day!')
 
-    re_play = input("Want to play again (y/n)?").lower()
-
-    if re_play[0] == 'y':
+    if input('Want to play again (y/n)?').lower()[0] == 'y':
         palidrome()
     else:
         print("Your Loss!")
