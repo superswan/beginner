@@ -1,6 +1,6 @@
 # Basic GitHub project
 
-## A simple palindrome checker in Python
+## Palindrome checker for beginners in python
 
 ### Usage
 
