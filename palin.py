@@ -2,6 +2,7 @@ print ('*****************')
 print ('**HELLO THERE!***')
 print ('*****************')
 print ('\nWelcome the the Python Palindrome Prober!\n')
+print ('\nPalindrome is a a word, phrase, or sequence that reads the same backwards as forwards, e.g. madam, noon or nurses run.\n')
         
 def word_is_palindrome(word):
     if word == word[::-1]:
