@@ -19,4 +19,4 @@ for i in range(n):                         #loop for changing rows from 0 to n
             print(k,'',end='')               #printing other number in lines
             bell=k                           #updating value of bell 
     print('\n')                              #for moving into next lines           
-print("last number of bell is",bell)    
+print("last number of the bell is",bell)    
