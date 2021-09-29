@@ -1,6 +1,7 @@
 #To check whether the word is a palindrome
 
-c=input("Enter the word:")
+
+c=input("Enter the word you want to check: ")
 if(c==c[::-1])
         print("The word is a palindrome")
 else
