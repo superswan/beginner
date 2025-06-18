@@ -6,10 +6,9 @@
 
 * Cloning the repository
 
-First, you need to install Git on your computer. This can be done in many different ways, but here's a link to figure out the best way on your operating system:
+1- you need to install Git on your computer. This can be done in many different ways, but here's a link to figure out the best way on your operating system:
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-
-Next, open your computer's terminal and run the following command:
+2- open your computer's terminal and run the following command:
 ```
 git clone https://github.com/superswan/beginner.git
 ```
@@ -30,8 +29,7 @@ cd beginner
 ```
 
 * Executes code
-
-Now, you can run the program using your Python installation and the files you downloaded from GitHub:
+4- you can run the program using your Python installation and the files you downloaded from GitHub:
 
 ```
 python palindrome.py
@@ -39,7 +37,7 @@ python palindrome.py
 
 Congratulations! You have run your first Python project. Here is an explanation of what a palindrome is, if you didn't know:
 https://en.wikipedia.org/wiki/Palindrome
-
+done by salamehhhhhhhhhhhhhhhh
 ### Screenshots
 
 ![screenshot](https://user-images.githubusercontent.com/15849927/32120845-be415c32-bb77-11e7-9764-dcc03d6401f1.png)
