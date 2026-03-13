@@ -1,6 +1,7 @@
+#Import of libraries
 import pyautogui
 import time
-
+#Program will determine what position the mouse is in and adjust accordingly
 while True:
     initial_mouse = pyautogui.position()
     time.sleep(0.5)
