@@ -12,7 +12,7 @@ def word_is_palindrome(word):
     
 def play_round():
     print ('''Please enter the word you would like to check
-                              for example: racecar''')
+                              for example: armstrong''')
     word = input(">> ")
     
     if word_is_palindrome(word):
