@@ -2,7 +2,7 @@
 
 print(('*' * 18) + 'HELLO THERE!' + ('*' * 18) + '\n Welcome to the Python Palindrome Prober!\n')
 
-def palidrome(word):
+def palidrome(word):#take word as paremeter 
     ch="y"
     while ch=="y":# checks until ch is y 
         
