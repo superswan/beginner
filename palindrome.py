@@ -2,31 +2,18 @@
 
 print(('*' * 18) + 'HELLO THERE!' + ('*' * 18) + '\n Welcome to the Python Palindrome Prober!\n')
 
-def palidrome():
+def palidrome(word):
+    ch="y"
+    while ch=="y":# checks until ch is y 
+        
+        print(f"Yes, your {word} is a palindrome!" if word.lower() == word[::-1].lower() else f"Sorry,{word} isn't a palindrome" ) # Checks if the string doesn't change when reversed
+        print('\nHave a nice day!\n')
 
-    print("Please enter the word you would like to check\nFor example: racecar")
+        ch=input("Do you want to run the program again (Y/N)?  ").lower() #update the ch
+    return "Exited"
+     
 
-    word = input(">> ").lower()
+string=input("Enter the word :   ")
+print(palidrome(string))
 
-    print('Yes, your word is a palindrome!' if word == word[::-1] else 'Sorry, this word isn\'t a palindrome :(') # Checks if the string doesn't change when reversed
-
-    print('\nHave a nice day!')
-
-    if input('Want to play again (y/n)?').lower()[0] == 'y':
-        palidrome()
-    else:
-        print("Your Loss!")
-
-palidrome()
-
-
-def harder_palindrome(word):
-    """ Takes in a word, and does the palindrome step by step, using a loop"""
-    """ makes the [::-1] notation clearer (hopefully)"""
-    for i in range(len(word)//2): #you just want to check the first half and second half
-        if (word[i] == word[-i-1]): #compare last and first until you reach the middle
-            pass #do nothing
-        else:
-            return False #oopsy, not palindrome
-    return True #yay
 
