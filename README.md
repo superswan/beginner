@@ -40,6 +40,28 @@ python palindrome.py
 Congratulations! You have run your first Python project. Here is an explanation of what a palindrome is, if you didn't know:
 https://en.wikipedia.org/wiki/Palindrome
 
+## Multiple Implementations
+
+This repository contains multiple palindrome checker implementations created by different contributors.
+
+Files such as:
+
+* palindrome.py
+* palindrome1.py
+* palindrome3.py
+* palindrome4.py
+* palindrome_checker4.py
+* palin.py
+
+show different beginner-friendly approaches to solving the same problem.
+
+For beginners, the recommended file to start with is:
+
+python `palindrome1.py`
+
+since it provides a simpler and easier-to-understand implementation of palindrome checking.
+
+
 ### Screenshots
 
 ![screenshot](https://user-images.githubusercontent.com/15849927/32120845-be415c32-bb77-11e7-9764-dcc03d6401f1.png)
